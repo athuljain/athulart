@@ -1,0 +1,195 @@
+
+body{
+    background-image: url(hao-wang-pVq6YhmDPtk-unsplash.jpg);
+    background-color: rgb(134, 134, 133);
+    
+    background-size: cover;
+}
+.head{
+    height: 17%;
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+
+    overflow: hidden;
+
+}
+.headline{
+ border-color: white;
+ height:5px;
+ 
+}
+.head:hover{
+   
+}
+.logo{
+    
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-size: 35px;
+    font-weight: 700;
+    font-style: inherit;
+    
+    
+}
+.logoimg{
+    width: 55px;
+    margin-left: 70px;
+}
+.logo:hover{
+
+}
+nav{
+    
+    padding-right: 8%;
+    
+    margin-left: 45pc;
+    word-spacing: 70px; 
+    display: inline-block;
+    overflow: hidden;
+}
+nav a{
+    
+    text-align: center;
+    text-decoration: none;
+    color: rgb(249, 243, 243);
+    text-shadow: 2px;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+nav a:hover{
+    
+  color: rgb(254, 6, 6);
+}
+.row{
+    display: flex;
+    height: 88%;
+   margin-left: 8%;
+
+
+}
+.connect1{
+    display: flex;
+    width: 250px;
+    
+    
+
+}
+.connect{
+    margin-left: 100px;
+    background-color: gray;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    
+    display: inline-block;
+}
+.connect:hover{
+    color: red;
+}
+.socialmediaicons{
+    margin-left: 105px;
+    background: none;
+    margin-top: 10px;
+    
+
+}
+.fbimg{
+    display: inline;
+    width: 25px;
+
+}
+.instaimg{
+    display: inline;
+    width: 25px;
+    
+    
+}
+.whatsappimg{
+    display: inline;
+    width: 25px;
+}
+.col{
+    width: 50%;
+    flex: basis 50%;
+    margin-top: 10pc;
+    color: beige;
+    
+    
+}
+.h1{
+    color: rgb(251, 7, 7);
+    font-size: 100px;
+    font-weight: 100pc;
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    font-size: 25px;
+}
+.btn{
+    width: 180px;
+    color:red;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  
+
+}
+.btn:hover{
+    padding-right: 25px;
+
+}
+.btn2{
+    background:none;
+}
+.col1{
+    width: 50%;
+    
+    margin-top: 7pc;
+    margin-left: 10%;
+    
+}
+.card{
+    color: rgb(157, 11, 11);
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+.card1{
+    background-image: url(ok.jpeg);
+}
+.card2{
+    background-image: url( comm.jpeg);
+}
+.card3{
+    background-image: url(co1.jpeg);
+    
+
+}
+.card4{
+    background-image: url(commo.jpeg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
